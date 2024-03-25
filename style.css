@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  max-width: 100%;
+  height: 80px;
+}
+
+.name-logo {
+  font-family: "Lobster";
+  width: 131px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 31px;
+  color: #0b4141;
+  margin-right: 1108px;
+  margin-left: 102px;
+  padding-top: 26.5px;
+}
+
+nav {
+  font-family: "Nunito Sans";
+  max-width: 200px;
+  max-height: 22px;
+  padding-top: 29px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+}
+
+.nav li {
+  font-size: 18px;
+  line-height: 22px;
+  color: #0b4141;
+  margin-right: 24px;
+}
+
+.nav a:link {
+  color: #0b4141;
+  text-decoration: none;
+}
+.nav a:visited {
+  color: #0b4141;
+  text-decoration: none;
+}
+
+.download {
+  font-family: "Nunito Sans";
+  color: #ffccbc;
+  max-width: 163px;
+  max-height: 46px;
+  margin-top: 17px;
+  margin-left: 48px;
+  padding: 12px 43.5px;
+  background-color: #0b4141;
+  border: #0b4141;
+  border-radius: 124px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.title-page {
+  max-width: 1908px;
+  height: 795px;
+}
+
+.h1-1 {
+  text-align: center;
+  width: 760px;
+  height: 200px;
+  font-family: "Lobster";
+  font-weight: 600;
+  font-size: 190px;
+  line-height: 158px;
+  word-spacing: 15px;
+  color: #ffccbc;
+  margin-top: 119.17px;
+  margin-left: 586.5px;
+  margin-right: 586.5px;
+}
+
+.horse-title-page {
+  max-height: 585px;
+  max-width: 1224px;
+  margin-left: 335px;
+  margin-top: 10px;
+}
+
+.black {
+  width: 492px;
+  height: 256px;
+  text-align: center;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 190px;
+  background: linear-gradient(180deg, #0b4141 45.83%, #0b1f1f 45.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 524px;
+  position: absolute;
+  left: 200px;
+  top: 490.17px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.begining {
+  position: relative;
+  width: 1902px;
+  height: 600px;
+  background-blend-mode: lighten;
+  background-color: #ffccbcfd;
+  position: relative;
+  /* bottom: 10px; */
+  padding-top: 196px;
+}
+
+.background {
+  position: absolute;
+  background-image: url(../img/background-horses.png);
+  width: 1902px;
+  height: 785px;
+  bottom: 25px;
+}
+
+.quote {
+  color: white;
+  font-family: "Lobster";
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 96px;
+  max-width: 800px;
+  height: 192px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.discription {
+  width: 747px;
+  height: 192px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.two-part-discription {
+  display: block;
+  margin: 25px;
+}
+
+.bold-text {
+  font-size: 28px;
+}
+
+.second-part {
+  display: flex;
+  position: relative;
+  width: 1902px;
+  height: 800px;
+  background: #0b2e27;
+}
+
+.container-second-part {
+  padding-left: 194px;
+  display: inline-block;
+}
+
+.quote-second-part {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 397px;
+  height: 143px;
+  padding: 118px 0px 0px 0px;
+  color: #ffccbc;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 72px;
+  margin-bottom: 32px;
+}
+
+.discription-second-part {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 475px;
+  height: 320px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffccbc;
+  margin-bottom: 62px;
+}
+
+.learn-more {
+  width: 291px;
+  height: 54px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  background: transparent;
+  border: 2px solid #ffccbc;
+  border-radius: 100px;
+  color: #ffccbc;
+}
+
+.img-second-part {
+  display: inline-block;
+  width: 1124px;
+  height: 604px;
+  margin-top: 196px;
+  background: url(../img/horse-second-part.png) no-repeat;
+  background-position: center;
+  filter: drop-shadow(22px 23px 13px rgba(0, 0, 0, 0.08));
+}
+
+.third-part {
+  height: 1480px;
+  width: 1902px;
+}
+
+.first-part-third {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin-top: 165px;
+  margin-left: 219px;
+  margin-bottom: 180px;
+}
+
+.circle-horse1 {
+  width: 496px;
+  height: 496px;
+  background: #ffccbc;
+  background-image: url(../img/horse-fird-section1.png);
+  border-radius: 50%;
+}
+
+.container-third-section {
+  margin-left: 370px;
+}
+
+.text {
+  width: 464px;
+  height: 400px;
+}
+
+.quote-third-section {
+  width: 317px;
+  height: 144px;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 72px;
+  color: #ffccbc;
+  margin-bottom: 32px;
+}
+
+.discription-third-section {
+  width: 464px;
+  height: 224px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0b4141;
+}
+
+.scroll {
+  display: flex;
+  align-items: center;
+  width: 227px;
+  height: 24px;
+  margin-top: 49px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0b4141;
+}
+
+.scroll::before {
+  content: url(../img/mouse.png);
+  margin-right: 16px;
+}
+
+.second-part-third {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 260px;
+}
+
+.text2 {
+  width: 464px;
+  height: 224px;
+}
+
+.quote-section-third-second-part {
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 72px;
+  color: #0b4141;
+  margin-bottom: 32px;
+}
+
+.discription-third-section-second-part {
+  width: 464px;
+  height: 224px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0b4141;
+}
+.circle-horse2 {
+  width: 496px;
+  height: 496px;
+  background: #0b4141;
+  background-image: url(../img/horse-fird-section2.png);
+  border-radius: 50%;
+  margin-left: 300px;
+  margin-bottom: 190px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__title {
+  width: 1902px;
+  height: 96px;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 126px;
+  line-height: 96px;
+  text-align: center;
+  color: #ffccbc;
+  margin-bottom: 80px;
+}
+.footer__discription {
+  width: 790px;
+  height: 102px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #0b4141;
+}
+.footer__discription__secondtext {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  width: 690px;
+  height: 102px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #0b4141;
+}
+
+.footer__discription__secondtext-bold {
+  font-weight: 700;
+}
+
+.footer__img {
+  width: 1902px;
+  height: 416px;
+  background-image: url(../web-horse/img/horse-pinklight.png);
+  background-size: cover;
+}
