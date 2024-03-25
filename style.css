@@ -127,7 +127,7 @@ nav {
 
 .background {
   position: absolute;
-  background-image: url(../img/background-horses.png);
+  background-image: url(./img/background-horses.png);
   width: 1902px;
   height: 785px;
   bottom: 25px;
@@ -219,7 +219,7 @@ nav {
   width: 1124px;
   height: 604px;
   margin-top: 196px;
-  background: url(../img/horse-second-part.png) no-repeat;
+  background: url(./img/horse-second-part.png) no-repeat;
   background-position: center;
   filter: drop-shadow(22px 23px 13px rgba(0, 0, 0, 0.08));
 }
@@ -242,7 +242,7 @@ nav {
   width: 496px;
   height: 496px;
   background: #ffccbc;
-  background-image: url(../img/horse-fird-section1.png);
+  background-image: url(./img/horse-fird-section1.png);
   border-radius: 50%;
 }
 
@@ -287,7 +287,7 @@ nav {
 }
 
 .scroll::before {
-  content: url(../img/mouse.png);
+  content: url(./img/mouse.png);
   margin-right: 16px;
 }
 
@@ -322,7 +322,7 @@ nav {
   width: 496px;
   height: 496px;
   background: #0b4141;
-  background-image: url(../img/horse-fird-section2.png);
+  background-image: url(./img/horse-fird-section2.png);
   border-radius: 50%;
   margin-left: 300px;
   margin-bottom: 190px;
@@ -378,6 +378,6 @@ footer {
 .footer__img {
   width: 1902px;
   height: 416px;
-  background-image: url(../web-horse/img/horse-pinklight.png);
+  background-image: url(./img/horse-pinklight.png);
   background-size: cover;
 }
